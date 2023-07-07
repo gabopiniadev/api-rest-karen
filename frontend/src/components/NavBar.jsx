@@ -2,28 +2,24 @@ import { Link } from "react-router-dom";
 import '../assets/css/navbar.scss';
 import Logo from '../assets/img/logo.png';
 
+
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="container">
-        <div className="logo">
-          <Link to="/">
-          <img src={Logo} alt="" />
+    <div className="Header-module__headerwrapper--2Yq6L">
+      <header className="Header-module__header--3xzeo">
+          <Link className="Header-module__homelink--1N9Da" to="/">
+            <img src={Logo} alt="" />
           </Link>
-        </div>
-        <div className="links">
-          <Link className="link" to="/?cat=art">
-            <h6>ART</h6>
+        <nav className="Header-module__nav--25Sms">
+          <Link className="Header-module__link--zKtyy" to="/">
+            <h6>Inicio</h6>
           </Link>
-          <Link className="link" to="/?cat=science">
-            <h6>SCIENCE</h6>
+          <Link className="Header-module__link--zKtyy" to="https://pokeapi.co/">
+            <h6>Sobre</h6>
           </Link>
-          <Link className="link" to="/?cat=technology">
-            <h6>TECHNOLOGY</h6>
-          </Link>
-        </div>
-      </div>
-    </div>
+        </nav>
+    </header>
+  </div>  
   );
 };
 export default Navbar;
