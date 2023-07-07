@@ -22,5 +22,5 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use('/', router());
 
 //Asignamos la IP del servidor
-const port = 7000;
+const port = 6000;
 app.listen(port);

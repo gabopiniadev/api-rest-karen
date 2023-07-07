@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const productoController = require('../controller/productController');
-const productos = require('../models/productos');
 
 module.exports = function () {
     //////////////////// PRODUCTOS ///////////////////
@@ -14,7 +13,8 @@ module.exports = function () {
     router.get('/producto/:idProducts', productoController.obtenerProducto);
     //Consultar un producto por Categoria
     router.get('/producto/category/:id', productoController.obtenerProductoC);
-
+    //Consultar un producto por Nombre
+    router.get('/producto/nombre/:nombre', productoController.obtenerProductoN);
     ///////////////////////////////////////////////////////
     return router;
 }
