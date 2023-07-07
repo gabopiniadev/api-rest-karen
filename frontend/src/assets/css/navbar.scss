@@ -1,0 +1,48 @@
+$lightGreen: #b9e7e7;
+
+.app {
+    display: flex;
+    justify-content: center;
+    .container {
+    width: 100%;
+    flex: 1 0 auto;
+    
+    /* CSS NavBar*/
+    .navbar {
+      background-color: #ef5350;
+        .container {
+          padding: 10px 0px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .logo {
+            img {
+              width: 120px;
+            }
+          }
+          .links {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: inherit;
+  
+            h6 {
+              font-size: 16px;
+              font-weight: 300;
+            }
+  
+            span {
+              cursor: pointer;
+            }
+          }
+
+          .link {
+            min-width: max-content;
+            height: 100%;
+            padding: 0 1em;
+          }
+        }
+      }
+    }     
+}       
