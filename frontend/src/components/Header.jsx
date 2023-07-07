@@ -8,7 +8,7 @@ const Header = () => {
                 <div class="index-module__logo_container--sUGNH">
                     <img alt="PokéAPI" src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"></img>
                 </div>
-                <h2>The RESTful Pokémon API</h2>
+                <h2>Aplicacion Replica Pokemon API REST</h2>
             </div>
         </div>
     );

@@ -14,6 +14,9 @@ const Navbar = () => {
           <Link className="Header-module__link--zKtyy" to="/">
             <h6>Inicio</h6>
           </Link>
+          <Link className="Header-module__link--zKtyy" to="/search">
+            <h6>Buscar tu Pokemon</h6>
+           </Link> 
           <Link className="Header-module__link--zKtyy" to="https://pokeapi.co/">
             <h6>Sobre</h6>
           </Link>
