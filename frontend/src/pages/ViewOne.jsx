@@ -13,7 +13,7 @@ function PokeSearch() {
         
         const name = inputRef.current.value;
 
-        history(`https://pokeapi.co/api/v2/pokemon/${name}`);
+        history(`/pokemon/${name}`);
     };
 
     

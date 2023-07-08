@@ -24,7 +24,6 @@ function PokeDetail() {
             });
     }, [name]);
 
-    // Renderizar el componente
     return (
         <div>
             {pokemon ? (
