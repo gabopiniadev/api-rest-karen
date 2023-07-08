@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from 'react-router-dom';
+import '../assets/css/viewone.scss';
 
 function PokeSearch() {
     const inputRef = useRef();
@@ -12,7 +13,7 @@ function PokeSearch() {
         
         const name = inputRef.current.value;
 
-        history.push(`/pokemon/${name}`);
+        history(`https://pokeapi.co/api/v2/pokemon/${name}`);
     };
 
     

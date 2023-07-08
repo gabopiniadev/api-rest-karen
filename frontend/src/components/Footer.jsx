@@ -1,12 +1,16 @@
 
+import { MDBFooter } from 'mdb-react-ui-kit';
+
 const Footer = () => {
     return (
-      <footer>
-        <img src="" alt="" />
-        <span>
-          Made with ♥️ and <b>React.js</b>.
-        </span>
-      </footer>
+      <MDBFooter bgColor='light' className='text-center text-lg-left'>
+      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        &copy; {new Date().getFullYear()} Copyright:{' '}
+        <a className='text-dark' href='/'>
+          Prueba Tecnica Pokemon
+        </a>
+      </div>
+    </MDBFooter>
     );
   };
 

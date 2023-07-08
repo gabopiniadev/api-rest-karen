@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../assets/css/table.scss';
 
 import React, { useEffect, useState } from "react";
 import Table from "react-bootstrap/Table";
@@ -17,7 +18,7 @@ function PokeTable() {
       });
   }, []);
   return (
-    <Table responsive="sm">
+    <Table striped bordered hover>
       <thead>
         <tr>
           <th>#</th>
